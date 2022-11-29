@@ -54,3 +54,6 @@ h1 {
      color: #090909;
      text-decoration: none;
  }
+.fixed {
+    position: fixed; width:100px; height:100px;
+}
