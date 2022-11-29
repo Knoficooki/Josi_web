@@ -1,5 +1,44 @@
+* {
+    position: relative;
+}
+
 body {
-    background-image: url("../img/Minecraft-Technoblade.jpg");
-    background-repeat: no-repeat;
+    background-image: url("../img/seus-ptgi-shaders-20.jpg");
+    background-repeat: repeat-y;
     background-size: cover;
 }
+
+h1 {
+    font-family: Lemon;
+    color: #2e592e;
+    text-align: center;
+    font-size: 5em;
+    cursor: default;
+}
+
+.noSelect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+div {
+    color: #ffffff;
+    background: #1a1a1a;
+    max-width: 40%;
+    max-height: 40em;
+    padding: 10px 10px;
+    margin-left: 10%;
+}
+
+.DivImg {
+    height: 100%;
+    width: 100%;
+}
+ .DivImg:hover {
+     box-shadow: #090909 0px 0px 20px;
+     transition-duration: 0.2s;
+ }
