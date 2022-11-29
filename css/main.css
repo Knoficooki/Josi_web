@@ -2,14 +2,14 @@
     position: relative;
 }
 
-body {
+.mineBody {
     background-image: url("../img/seus-ptgi-shaders-20.jpg");
     background-repeat: repeat-y;
     background-size: cover;
 }
 
 h1 {
-    font-family: Lemon;
+    font-family: Lemon, serif;
     color: #2e592e;
     text-align: center;
     font-size: 5em;
@@ -41,4 +41,16 @@ div {
  .DivImg:hover {
      box-shadow: #090909 0px 0px 20px;
      transition-duration: 0.2s;
+ }
+
+ .button {
+     border: 5px solid;
+     margin-left: 20%;
+     top: 8em;
+     padding: 10px 10px;
+     border-color: #090909;
+     border-radius: 10px;
+     background: aqua;
+     color: #090909;
+     text-decoration: none;
  }
