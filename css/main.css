@@ -58,7 +58,7 @@ h1 {
 
 a.link {
     text-decoration: none;
-    color: white;
+    color: #ececec;
     background-color: rgba(0,0,0,0);
 }
 div.link {
@@ -67,8 +67,12 @@ div.link {
 }
 
 div.link:hover {
-    background-color: rgba(24,34,42,50);
-    border: rgba(81,88,96,70) solid;
+    background: rgba(40, 76, 98, 0.5);
+    border: rgba(130, 132, 136, 0.7) solid;
+}
+
+div.link:hover a.link {
+    color: #c0c0c0;
 }
 
 #iB {
