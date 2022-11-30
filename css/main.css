@@ -44,16 +44,15 @@ h1 {
  }
 
  .button {
-     border: 5px solid;
      margin-left: 20%;
      top: 8em;
      padding: 10px 10px;
-     border-color: #090909;
+     border: 5px solid #090909;
      border-radius: 10px;
      background: aqua;
      color: #090909;
      text-decoration: none;
  }
 .fixed {
-    position: fixed; width:100px; height:100px;
+    position: fixed;
 }
