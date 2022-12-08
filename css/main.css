@@ -80,3 +80,20 @@ div.link:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.ValoButton {
+    position: fixed;
+    font-family: Consolas;
+    font-style: normal;
+    text-decoration: none;
+    color: #c45046;
+    font-size: 50px;
+    transition-duration: 0.3s;
+    border: solid transparent 4px;
+    padding: 5px 5px;
+}
+.ValoButton:hover {
+    border: solid #1a1a1a 4px;
+    border-radius: 10px;
+    color: #ff2919;
+    transition-duration: 0.2s;
+}
