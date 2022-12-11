@@ -7,7 +7,23 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body style="background: url('img/maxresdefault.jpg') no-repeat; background-size: cover">
-<img src="img/Background_ValMain.png" alt="Main" style="position: fixed;margin: 0 0 0; top: 0; left: 0;">
-<a class="ValoButton" style="top: 0.3em;left: 46%" href="index.html">START</a>
+<img src="img/Background_ValMain.png" alt="Main" style="z-index: 0;position: fixed;margin: 0 0 0; top: 0; left: 0;">
+<div id="NavBar">
+<a class="noSelect ValoButton" style="z-index: 2;top: 0.3em;left: 46%" href="index.html">START</a>
+<div class="container" style="z-index: 1">
+    <a class="noSelect" href="Valo_menu/Gameplay.html" style="left: 15%;">
+        <img class="ValoButton" src="img/icons8-play-button-circled-90.png" alt="play">
+    </a>
+    <a class="noSelect" href="Valo_menu/Currency.html" style="left: 25%;">
+        <img class="ValoButton" src="img/icons8-currency-exchange-90.png" alt="Currency">
+    </a>
+    <a class="noSelect" href="Valo_menu/Roles.html" style="left: 75%;">
+        <img class="ValoButton" src="img/icons8-agent-90.png" alt="Roles">
+    </a>
+    <a class="noSelect" href="Valo_menu/Weapons.html" style="left: 85%;">
+        <img class="ValoButton" src="img/icons8-gun-90.png" alt="Weapons">
+    </a>
+</div>
+</div>
 </body>
 </html>

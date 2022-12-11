@@ -80,9 +80,9 @@ div.link:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.ValoButton {
+a.ValoButton {
     position: fixed;
-    font-family: Consolas;
+    font-family: Consolas sans-serif;
     font-style: normal;
     text-decoration: none;
     color: #c45046;
@@ -91,9 +91,28 @@ div.link:hover {
     border: solid transparent 4px;
     padding: 5px 5px;
 }
-.ValoButton:hover {
+a.ValoButton:hover {
     border: solid #1a1a1a 4px;
     border-radius: 10px;
     color: #ff2919;
     transition-duration: 0.2s;
+}
+a.noSelect img.ValoButton {
+    width: 45px;height: 45px;
+    transition: .2s;
+}
+
+.container {
+    position: fixed;
+    top: 10q;
+    left: 15%;
+    width: 60%;
+}
+
+a.noSelect img.ValoButton->a.noSelect {
+    top: 0;
+}
+.container:hover > :not(:hover) {
+    opacity: .3;
+    transition: 0.25s;
 }
