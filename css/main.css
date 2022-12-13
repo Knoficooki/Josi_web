@@ -1,5 +1,6 @@
 * {
     position: relative;
+    color: white;
 }
 
 .mineBody {
@@ -115,4 +116,11 @@ a.noSelect img.ValoButton->a.noSelect {
 .container:hover > :not(:hover) {
     opacity: .3;
     transition: 0.25s;
+}
+
+p.noSelect {
+    top: 10em;
+    left: 4em;
+    width: fit-content;
+    height: fit-content;
 }
