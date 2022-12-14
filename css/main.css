@@ -124,3 +124,36 @@ p.noSelect {
     width: fit-content;
     height: fit-content;
 }
+
+h3 {
+    position: relative;
+    font-size: 10rem;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.2vw #420519;
+    color: transparent;
+    text-transform: uppercase;
+}
+h3::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: rgba(26, 26, 26, 0.3);
+    -webkit-text-stroke: 0.1vw #420519;
+    border-right: 1px solid #2c000e;
+    overflow: hidden;
+    animation: fills 5s linear infinite;
+    -webkit-animation: fills 5s linear infinite;
+}
+@keyframes fills {
+    0% {
+        width: 0;
+        color: rgba(26, 26, 26, 0.25);
+    }
+    70% {
+        color: rgba(126, 6, 24, 0.95);
+        width: 100%;
+    }
+}
