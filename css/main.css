@@ -39,10 +39,10 @@ h1 {
     height: 100%;
     width: 100%;
 }
- .DivImg:hover {
-     box-shadow: #090909 0 0 20px;
-     transition-duration: 0.2s;
- }
+.DivImg:hover {
+    box-shadow: #090909 0 0 20px;
+    transition-duration: 0.2s;
+}
 
 .fixed {
     position: fixed;
@@ -62,16 +62,13 @@ a.link {
     color: #ececec;
     font-size: 12px;
     text-shadow: 1px 1px 1px #090909;
-    background-color: rgba(0,0,0,0);
-}
-div.link {
     width: 155px;
     height: 75px;
     background-color: rgba(0,0,0,0);
     border: solid transparent;
 }
 
-div.link:hover {
+a.link:hover {
     background: rgba(40, 76, 98, 0.5);
     border: rgba(130, 132, 136, 0.7) solid;
 }
