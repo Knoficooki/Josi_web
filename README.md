@@ -4,7 +4,7 @@ A website-system for info-class.
 ### Important
 This system was developed on and for a 1920x1080 Display and an in-browser size of 1920x937,
 with other sizes there can be some problems with the positions of some elements, and the newest version of Firefox(Version 107.0.1 (64-Bit)).
-### Utilization
+### Utilisation
 At first open the index.html in a browser like Firefox, Opera GX or Microsoft Edge.
 ## Websites
 ### index.html
