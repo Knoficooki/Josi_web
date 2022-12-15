@@ -8,4 +8,4 @@ with other sizes there can be some problems with the positions of some elements,
 At first open the index.html in a browser like Firefox, Opera GX or Microsoft Edge.
 ## Websites
 ### index.html
-There are two logos on a background those two logos are links to one a website about minecraft(minecraft.html) and second a website about Valorant(Valo.html).
+There are two logos on a background those two logos are links to one a website about minecraft(minecraft.html) and second a website about Valorant(valorant.html).
