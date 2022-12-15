@@ -1,4 +1,4 @@
-# Josi_web
+# Info_web
 A website-system for info-class.
 ## Web
 ### Important
